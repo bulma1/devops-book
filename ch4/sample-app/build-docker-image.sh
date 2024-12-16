@@ -6,7 +6,6 @@ name=$(npm pkg get name | tr -d '"')
 version=$(npm pkg get version | tr -d '"')
 
 docker buildx build \
-  --platform=linux/amd64,linux/arm64 \
-  --load \
+  --platform linux/amd64,linux/arm64 \
   -t "$name:$version" \
   .
