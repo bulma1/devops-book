@@ -4,6 +4,7 @@
 provider "registry.opentofu.org/hashicorp/archive" {
   version = "2.4.2"
   hashes = [
+    "h1:mG16aGDiv7fL5C2eYnd2ZBZXVrGagIpIjcNE0ha7TWk=",
     "h1:tZcueUOGqjDRRzW9b6BMwV++XRqABodQjgC/K3bRoXM=",
     "zh:0fee4f61bc999b5174a1268295e04c91c3f6be0160022cb53943b6ec0a3f1055",
     "zh:10a895ee751beec68727d3dc6bf8e670f499618bb4b02649544be2c73e89603e",
@@ -22,6 +23,7 @@ provider "registry.opentofu.org/hashicorp/aws" {
   version = "5.51.0"
   hashes = [
     "h1:FQxtWF88/bjYbBQo9owKUuHjiyNMaW61eBAHpn5mfOc=",
+    "h1:jnejQgOmimioupJPj/ENMf+ENrJSzqSc5ck03Z3nSBM=",
     "zh:233fdb83495af06a71d55edefb46ef5e07a1c6c52b2e093f4177a57978038646",
     "zh:3c75eb37ecf209f1ec8514e9cd6d81a761da4af5d2917279056cdfc2f700cde7",
     "zh:5a174985242a07da059e9e3a7b80d6e2424e8b3e947b1b49fb56bc29f7bdfa3a",
@@ -39,6 +41,7 @@ provider "registry.opentofu.org/hashicorp/http" {
   version = "3.4.2"
   hashes = [
     "h1:KYPSiOzUcE18IUcDI19bVFVNgp+ihVrOub5hSdtct0I=",
+    "h1:bMenQ+xFMyn0/8ZRxy1TwmurEeDkt/8IMW/HPmJ2Emc=",
     "zh:02431ec117a862e219dab4d014bc4d5c158b49b18dbc31fd53c2a5a1f1a3d9c7",
     "zh:11f0c07a25e03436531ed37536f7aaba376b1dc994b6d59483030f2c17120752",
     "zh:23aa3da0bf34f92fa2253b3228e8aa42aa2a2b8b27cec487bf78147aec6c373b",
@@ -56,6 +59,7 @@ provider "registry.opentofu.org/hashicorp/time" {
   version = "0.11.1"
   hashes = [
     "h1:+S9YvR/HeCxFGMS3ITjOFqlWrR6DdarWWowT9Cz18/M=",
+    "h1:HSQ/mQFgGE6du6H/v4eCPKpUjQEy3mknmPBDNXoz9g0=",
     "zh:048c56f9f810f67a7460363a26bf3ef939d64f0d7b7342b9e7f24cc85ee1491b",
     "zh:49f949cc5cb50fbb65f7b4578b79fbe02b6bafe9e3f5f1c2936114dd445b84b3",
     "zh:553174a4fa88f6e186800d7ee155a6b5b4c6c81793643f1a20eab26becc7f823",
