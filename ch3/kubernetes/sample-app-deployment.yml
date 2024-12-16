@@ -12,7 +12,7 @@ spec:
     spec:
       containers:                 
         - name: sample-app        
-          image: sample-app:v1    
+          image: 296062573273.dkr.ecr.us-west-2.amazonaws.com/sample-app:v3
           ports:
             - containerPort: 8080 
           env:                    

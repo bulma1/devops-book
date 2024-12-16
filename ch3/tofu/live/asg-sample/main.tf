@@ -8,7 +8,7 @@ module "asg" {
   name = "sample-app-asg"                                   
 
   # TODO: fill in with your own AMI ID!
-  ami_id        = "ami-07f12c0f2ab5ba89d"                   
+  ami_id        = "ami-0d6632f62952a13aa"                   
   user_data     = filebase64("${path.module}/user-data.sh") 
   app_http_port = 8080                                      
 
