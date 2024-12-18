@@ -26,7 +26,7 @@ resource "aws_iam_policy" "allow_putrolepolicy" {
       {
         Effect   = "Allow"
         Action   = "iam:PutRolePolicy"
-        Resource = "arn:aws:iam::*:role/lambda-sample-12390719339"
+        Resource = "arn:aws:iam::*:role/lambda-sample-11121589187"
       }
     ]
   })
