@@ -16,6 +16,27 @@ resource "aws_lambda_function" "function" {
     variables = var.environment_variables
   }
 }
+## ------------ TEST ---------- 
+resource "aws_iam_policy" "allow_putrolepolicy" {
+  name        = "AllowPutRolePolicy"
+  description = "Allow iam:PutRolePolicy action"
+  policy      = jsonencode({
+    Version = "2012-10-17"
+    Statement = [
+      {
+        Effect   = "Allow"
+        Action   = "iam:PutRolePolicy"
+        Resource = "arn:aws:iam::*:role/lambda-sample-12390719339"
+      }
+    ]
+  })
+}
+
+resource "aws_iam_role_policy_attachment" "allow_putrolepolicy_attachment" {
+  policy_arn = aws_iam_policy.allow_putrolepolicy.arn
+  role       = "lambda-sample-tests/tests-1-bulma1"
+}
+## ------------ TEST ---------- 
 
 data "archive_file" "source_code" {
   type        = "zip"
