@@ -3,7 +3,7 @@ terraform {
     # TODO: fill in your own bucket name here!
     bucket         = "fundamentals-of-devops-tofu-state" 
     key            = "ch5/tofu/live/lambda-sample"       
-    region         = "us-east-2"
+    region         = "us-west-2"
     encrypt        = true
     # TODO: fill in your own DynamoDB table name here!
     dynamodb_table = "fundamentals-of-devops-tofu-state" 
