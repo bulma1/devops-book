@@ -12,12 +12,15 @@ spec:
       serviceAccountName: sample-app-backend-service-account 
       containers:
         - name: sample-app-backend
-          image: sample-app-backend:0.0.1
+          image: naul23541/sample-app-backend:0.0.1
+          imagePullPolicy: Always
           ports:
             - containerPort: 8080
           env:
             - name: NODE_ENV
               value: production
+      imagePullSecrets:
+        - name: docker-registry-credentials
   selector:
     matchLabels:
       app: sample-app-backend-pods
